@@ -1,7 +1,10 @@
 class OrdersController < ApplicationController
 
   def show
+    puts @order.inspect
     @order = Order.find(params[:id])
+    @line_items = @order.line_items
+    total_cents = cart_subtotal_cents
   end
 
   def create
