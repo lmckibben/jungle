@@ -1,2 +1,20 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th class="dark-row">Number of Product</th>
+          <th class="light-row">Number of Categories</th>
+        </tr>
+      </thead>
+      <tbody>
+       <tr>
+          <th class="dark-row">
+            <%= @products %>
+          </th>
+          <th class="light-row">
+            <%= @categories %>
+          </th>
+       </tr>
+      </tbody>
+    </table>
+  </div>
