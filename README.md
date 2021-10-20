@@ -2,6 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+
+# Images
+
+![Home Page](https://github.com/lmckibben/jungle/blob/master/images/home_page.png)
+![Cart](https://github.com/lmckibben/jungle/blob/master/images/cart.png)
+![Payment](https://github.com/lmckibben/jungle/blob/master/images/payment.png)
+![Receipt](https://github.com/lmckibben/jungle/blob/master/images/recepit.png)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
